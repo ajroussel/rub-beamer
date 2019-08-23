@@ -1,14 +1,16 @@
-# LaTeX generated files.
 *.aux
 *.bbl
 *.blg
 *.dvi
+*.fdb_latexmk
+*.fls
 *.gz
 *.lof
 *.log
 *.lot
 *.nav
 *.out
+*.pdf
 *.snm
 *.tdo
 *.toc
