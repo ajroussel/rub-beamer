@@ -1,8 +1,8 @@
 
 PACKAGE_SRC = $(wildcard *.sty)
 
-DESTDIR     ?= $(shell kpsewhich -var-value=TEXMFHOME)
-INSTALL_DIR  = $(DESTDIR)/tex/latex/rub-beamer
+DESTDIR     = $(shell kpsewhich -var-value=TEXMFHOME)
+INSTALL_DIR = $(DESTDIR)/tex/latex/rub-beamer
 
 install: $(PACKAGE_SRC)
 	mkdir -p $(INSTALL_DIR)
